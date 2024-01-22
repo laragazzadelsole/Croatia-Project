@@ -145,9 +145,9 @@ def RCT_questions():
     st.write('- Trustiworthiness of program impacts')
     st.radio('Choose one of the following options:', ['I will trust estimates of the programs impacts from this RCT more than of other programs that use our standard M&E', "I will trust estimates of this program's impacts equally as much as other programs that use our standard M&E", "I will trust estimates of this program's impacts from the RCT less than those of other programs that use our standard M&E"], key='RCT_question4')
 
-def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updated_bins_question_3_df, updated_bins_question_4_df, updated_bins_question_5_df, updated_bins_question_6_df, updated_bins_question_7_df, updated_bins_question_8_df, updated_bins_question_9_df, updated_bins_question_10_df, updated_bins_question_12_df):
+def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updated_bins_question_3_df, updated_bins_question_4_df, updated_bins_question_5_df, updated_bins_question_6_df, updated_bins_question_7_df, updated_bins_question_8_df, updated_bins_question_9_df, updated_bins_question_10_df, updated_bins_question_11_df, updated_bins_question_12_df):
     
-    updated_bins_list = [updated_bins_question_1_df, updated_bins_question_2_df, updated_bins_question_3_df, updated_bins_question_4_df, updated_bins_question_5_df, updated_bins_question_6_df, updated_bins_question_7_df, updated_bins_question_8_df, updated_bins_question_9_df, updated_bins_question_10_df, updated_bins_question_12_df]
+    updated_bins_list = [updated_bins_question_1_df, updated_bins_question_2_df, updated_bins_question_3_df, updated_bins_question_4_df, updated_bins_question_5_df, updated_bins_question_6_df, updated_bins_question_7_df, updated_bins_question_8_df, updated_bins_question_9_df, updated_bins_question_10_df, updated_bins_question_11_df, updated_bins_question_12_df]
     
     transposed_bins_list = [df.transpose() for df in updated_bins_list]
     
@@ -189,6 +189,7 @@ def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updat
     MIN_EFF_SIZE_Q8 = 'Minimum Effect Size Q8'
     MIN_EFF_SIZE_Q9 = 'Minimum Effect Size Q9'
     MIN_EFF_SIZE_Q10 = 'Minimum Effect Size Q10'
+    #MIN_EFF_SIZE_Q11 = 'Minimum Effect Size Q10'
     MIN_EFF_SIZE_Q12 = 'Minimum Effect Size Q12'
     COST_BENEFIT_RATIO = 'Cost-Benefit Ratio'
     RISK_AVERSION = 'Risk Aversion'
@@ -212,6 +213,7 @@ def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updat
     data[MIN_EFF_SIZE_Q8].append(safe_var('num_input_question8'))
     data[MIN_EFF_SIZE_Q9].append(safe_var('num_input_question9'))
     data[MIN_EFF_SIZE_Q10].append(safe_var('num_input_question10'))
+    #data[MIN_EFF_SIZE_Q11].append(safe_var('num_input_question11'))
     data[MIN_EFF_SIZE_Q12].append(safe_var('num_input_question12'))
     data[COST_BENEFIT_RATIO].append(safe_var('cost_benefit'))
     data[RISK_AVERSION].append(safe_var('risk_aversion'))
@@ -235,7 +237,7 @@ def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updat
     creds = ServiceAccountCredentials.from_json_keyfile_dict(secrets_to_json(), scope)
     client = gspread.authorize(creds)
  
-    sheet = client.open("Survey answers: Romania Case").sheet1
+    sheet = client.open("Survey answers: Croatia Case").sheet1
 
     column_names_list = concatenated_df.columns.tolist()
     #test_sheet = client.create(f'Test for Romania').sheet1
@@ -245,7 +247,7 @@ def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updat
     #st.success('Data has been saved successfully.')
     
     #Navigate to the folder in Google Drive. Copy the Folder ID found in the URL. This is everything that comes after “folder/” in the URL.
-    backup_sheet = client.create(f'Backup_{data[USER_FULL_NAME]}_{datetime.now()}', folder_id='1WTHKA2QT-1MDj0PpV5YX_Yboxf4pniJ9').sheet1
+    backup_sheet = client.create(f'Backup_{data[USER_FULL_NAME]}_{datetime.now()}', folder_id='1RULbSp6ACevumpKKajip2su5_AsR0WvV').sheet1
     backup_sheet = backup_sheet.append_rows(concatenated_df.values.tolist()) #(new_bins_df.iloc[:2].values.tolist())
     #backup_sheet.share('', perm_type = 'user', role = 'writer')
 

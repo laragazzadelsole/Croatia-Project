@@ -30,7 +30,7 @@ if st.session_state['consent']:
     q1_config = config['question1']
     updated_bins_question_1_df, percentage_difference1, num_bins1 = create_question(q1_config)
     effect_size_question1 = effect_size_question(q1_config)
-
+    
     q2_config = config['question2']
     updated_bins_question_2_df, percentage_difference2, num_bins2 = create_question(q2_config)
     effect_size_question2 = effect_size_question(q2_config)
@@ -68,7 +68,7 @@ if st.session_state['consent']:
     effect_size_question10 = effect_size_question(q10_config)
 
     q11_config = config['question11']
-    updated_bins_question_11_df, percentage_difference1, num_bins11 = create_question(q11_config)
+    updated_bins_question_11_df, percentage_difference11, num_bins11 = create_question(q11_config)
     #effect_size_question1 = effect_size_question(q1_config)
 
     col1, col2, col3, col4 = st.columns(4)
@@ -84,14 +84,14 @@ if st.session_state['consent']:
     updated_bins_list = [updated_bins_question_1_df, updated_bins_question_2_df]#, updated_bins_question_3_df, updated_bins_question_4_df, updated_bins_question_5_df
     
     
-    st.subheader("Question 11 - Cost/Benefit Ratio")
+    st.subheader("Question 13 - Cost/Benefit Ratio")
     st.write("In simple terms, a cost-benefit ratio is used to compare the costs of an action or project against the benefits it delivers. For instance, if a program costs €100.000 and the monetized value of its benefits is €150.000, the cost-benefit ratio would be 1:1.5. This means that for every euro spent, the program delivers one and a half euro in benefits. A higher ratio indicates greater efficiency and value for money. This question prompts to consider the efficiency and economic justification for scaling a program, ensuring that the decision aligns with both fiscal responsibility and the desired impact.  \nAt what cost-benefit ratio would you consider scaling a program?  \nConsider “benefits” that occurred after 2 years of running the program and “costs” as the total expenses incurred to implement, operate, and maintain a program or project (including administration and overhead costs).")
     
     col1, col2= st.columns(2)
     with col1:
         st.select_slider("Please move the slider to indicate your preference.", cost_benefit_list, key = "cost_benefit")
 
-    st.subheader("Question 12 - Risk Aversion")
+    st.subheader("Question 14 - Risk Aversion")
     st.write("Rate your willingness to take risks in general on a 10-point scale, with 1 completely unwilling and 10 completely willing.")
 
     col1, col2= st.columns(2)
@@ -103,8 +103,9 @@ if st.session_state['consent']:
     
     # Submission button + saving data 
     if all(percentage == 0 for percentage in percentage_differences):
+    #if percentage_difference1 == 0:
         #concatenated_df = combine_df(updated_bins_question_1_df, updated_bins_question_2_df, updated_bins_question_3_df, updated_bins_question_4_df, updated_bins_question_5_df, updated_bins_question_6_df, updated_bins_question_7_df)
-        submit = st.button("Submit", on_click = add_submission, args = (updated_bins_question_1_df, updated_bins_question_2_df, updated_bins_question_3_df, updated_bins_question_4_df, updated_bins_question_5_df, updated_bins_question_6_df, updated_bins_question_7_df, updated_bins_question_8_df, updated_bins_question_9_df, updated_bins_question_10_df))
+        submit = st.button("Submit", on_click = add_submission, args = (updated_bins_question_1_df, updated_bins_question_2_df, updated_bins_question_3_df, updated_bins_question_4_df, updated_bins_question_5_df, updated_bins_question_6_df, updated_bins_question_7_df, updated_bins_question_8_df, updated_bins_question_9_df, updated_bins_question_10_df, updated_bins_question_11_df, updated_bins_question_12_df))
 
     if st.session_state['submit']:
         
