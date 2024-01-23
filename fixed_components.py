@@ -41,7 +41,7 @@ def user_professional_category():
     #st.write("ciao" if 'professional_category' not in st.session_state else st.session_state['professional_category'])
 
 def years_of_experience():
-    st.number_input('Please, insert the years of experience you have:', min_value= 0, key = 'years_of_experience')
+    st.number_input('Please, insert the years of experience you have on supporting private-public collaborations:', min_value= 0, key = 'years_of_experience')
 
 
 def personal_information():

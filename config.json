@@ -86,7 +86,7 @@
       "question_number": "Question 5",
       "key_form": "key_form5",
       "title_question": "Question 5 - New Customers Acquisition",
-      "subtitle_question": "On average, how much do you think that the SMEs selected for the program via the RCT method, after 2 years since firms received the money, have increased the number of customers outside Romania's borders, compared to non-beneficiaries SMEs from the comparison group?  \n _Please allocate the probabilities in the cells corresponding to your beliefs._",
+      "subtitle_question": "On average, how much do you think that the SMEs selected for the program via the RCT method, after 2 years since firms received the money, have increased the number of customers outside Croatia's borders, compared to non-beneficiaries SMEs from the comparison group?  \n _Please allocate the probabilities in the cells corresponding to your beliefs._",
       "column_1": "% Newly adoption of externally focused digitalization tools",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -99,7 +99,7 @@
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question5",
-      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the increment of customers outside Romania's borders to increase by at least 5%, you should give 5 as your answer."
+      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the increment of customers outside Croatia's borders to increase by at least 5%, you should give 5 as your answer."
     },
 
     "question6": {
@@ -165,7 +165,7 @@
       "question_number": "Question 9",
       "key_form": "key_form9",
       "title_question": "Question 9 - Positive Impact on Employment in a Neighbouring Country",
-      "subtitle_question": "Suppose we found the impact on employment in one of these other neighboring countries was 10%, with a 95% confidence interval of [+5%., +15%]. That is, the program in this other country is estimated to have increased employment by 10% compared to a control group, and it is very likely the effect is between 5 and 15 percent. How, if at all, would this change your beliefs about the impact on employment in Romania?\n_Please look again at the answers you gave in Question 2. If you want to update your estimate insert the new distribution of probabilities, otherwise insert again the same distribution as you did above._ ",
+      "subtitle_question": "Suppose we found the impact on employment in one of these other neighboring countries was 10%, with a 95% confidence interval of [+5%., +15%]. That is, the program in this other country is estimated to have increased employment by 10% compared to a control group, and it is very likely the effect is between 5 and 15 percent. How, if at all, would this change your beliefs about the impact on employment in Croatia?\n_Please look again at the answers you gave in Question 2. If you want to update your estimate insert the new distribution of probabilities, otherwise insert again the same distribution as you did above._ ",
       "column_1": "% Change in Full-time Employees",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -185,7 +185,7 @@
       "question_number": "Question 10",
       "key_form": "key_form10",
       "title_question": "Question 10 - Negative Impact on Employment in a Neighbouring Country",
-      "subtitle_question": "What if, instead, we had found that employment actually fell 5 percent in this other country relative to the control group, with a 95% confidence interval of [-10%., 0%]. That is, the program in this other country is estimated to have led slightly firms to shrink their labor force compared to a control group, and it is very likely the effect is between -10 and 0 percent. How, if at all, would this change your beliefs about the impact on employment in Romania?\n_Please look again at the answers you gave in Question 2. If you want to update your estimate insert the new distribution of probabilities, otherwise insert again the same distribution as you did above._",
+      "subtitle_question": "What if, instead, we had found that employment actually fell 5 percent in this other country relative to the control group, with a 95% confidence interval of [-10%., 0%]. That is, the program in this other country is estimated to have led slightly firms to shrink their labor force compared to a control group, and it is very likely the effect is between -10 and 0 percent. How, if at all, would this change your beliefs about the impact on employment in Croatia?\n_Please look again at the answers you gave in Question 2. If you want to update your estimate insert the new distribution of probabilities, otherwise insert again the same distribution as you did above._",
       "column_1": "% Change in Full-time Employees",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -224,8 +224,8 @@
     "question12": {
       "question_number": "Question 12",
       "key_form": "key_form12",
-      "title_question": "Question 12 - Correlation Between Treatment Estimates in Romania and Those in Another Country",
-      "subtitle_question": "We would like you to express your beliefs about the correlation you would expect to see between treatment estimates in Romania and those in another country in the region. A negative correlation means you think if a program has a negative impact somewhere else this makes it more likely it has a positive impact in Romania. A 0 correlation means no relationship between what you find elsewhere and what you expect to see in Romania, while a positive correlation means if you think that when programs find a high impact somewhere else you will be more likely to also find a high impact in Romania. A positive number between 0 and 1 means the two don't move perfectly together, but that you are somewhat more likely to see positive impacts in Romania where you see them somewhere else.\n_Please allocate the probabilities in the cells corresponding to your beliefs._",
+      "title_question": "Question 12 - Correlation Between Treatment Estimates in Croatia and Those in Another Country",
+      "subtitle_question": "We would like you to express your beliefs about the correlation you would expect to see between treatment estimates in Croatia and those in another country in the region. A negative correlation means you think if a program has a negative impact somewhere else this makes it more likely it has a positive impact in Croatia. A 0 correlation means no relationship between what you find elsewhere and what you expect to see in Croatia, while a positive correlation means if you think that when programs find a high impact somewhere else you will be more likely to also find a high impact in Croatia. A positive number between 0 and 1 means the two don't move perfectly together, but that you are somewhat more likely to see positive impacts in Croatia where you see them somewhere else.\n_Please allocate the probabilities in the cells corresponding to your beliefs._",
       "column_1": " Correlation",
       "column_2": "Probabilities",
       "minor_value": "-1.0",
