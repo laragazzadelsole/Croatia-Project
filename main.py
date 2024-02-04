@@ -73,7 +73,9 @@ if st.session_state['consent']:
 
     col1, col2, col3, col4 = st.columns(4)
     with col2:
-        st.image("SatSunGraph.png", caption = "Saturday and Sunday temperatures in Washington DC for each weekend in 2022. As we might expect, there is a strong correlation between the temperature on a Saturday and on the Sunday, since some parts of the year are hot, and others colder. The correlation here is 0.88.", width = 700)
+        st.image("SatSunGraph.png", width = 700)
+    
+    st.write("Saturday and Sunday temperatures in Washington DC for each weekend in 2022. As we might expect, there is a strong correlation between the temperature on a Saturday and on the Sunday, since some parts of the year are hot, and others colder. The correlation here is 0.88.")
 
     q12_config = config['question12']
     updated_bins_question_12_df, percentage_difference12, num_bins12 = create_question(q12_config)
@@ -85,7 +87,7 @@ if st.session_state['consent']:
     
     
     st.subheader("Question 13 - Cost/Benefit Ratio")
-    st.write("In simple terms, a cost-benefit ratio is used to compare the costs of an action or project against the benefits it delivers. For instance, if a program costs €100.000 and the monetized value of its benefits is €150.000, the cost-benefit ratio would be 1:1.5. This means that for every euro spent, the program delivers one and a half euro in benefits. A higher ratio indicates greater efficiency and value for money. This question prompts to consider the efficiency and economic justification for scaling a program, ensuring that the decision aligns with both fiscal responsibility and the desired impact.  \nAt what cost-benefit ratio would you consider scaling a program?  \nConsider “benefits” that occurred after 2 years of running the program and “costs” as the total expenses incurred to implement, operate, and maintain a program or project (including administration and overhead costs).")
+    st.write("A cost-benefit ratio is used to compare the costs of an action or project against the benefits it delivers. For instance, if a program costs €100.000 and the monetized value of its benefits is €150.000, the cost-benefit ratio would be 1:1.5. This means that for every euro spent, the program delivers one and a half euro in benefits. A higher ratio indicates greater efficiency and value for money. This question prompts to consider the efficiency and economic justification for scaling a program, ensuring that the decision aligns with both fiscal responsibility and the desired impact.  \nAt what cost-benefit ratio would you consider scaling a program?  \nConsider “benefits” that occurred after 2 years of running the program and “costs” as the total expenses incurred to implement, operate, and maintain a program or project (including administration and overhead costs).")
     
     col1, col2= st.columns(2)
     with col1:
