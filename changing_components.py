@@ -50,7 +50,9 @@ def initialize_session_state():
             'RCT Q1': [],
             'RCT Q2': [],
             'RCT Q3': [],
-            'RCT Q4': []
+            'RCT Q4': [],
+            'RCT Q5': [],
+            'RCT Q6': []
             }
     
 def safe_var(key):
@@ -144,6 +146,10 @@ def RCT_questions():
     st.radio('Choose one of the following options:', ['The RCT sped up implementation of the project', 'The RCT did not change the speed', 'The RCT slowed down the speed of implementation'], key='RCT_question3')
     st.write('- Trustiworthiness of program impacts')
     st.radio('Choose one of the following options:', ['I will trust estimates of the programs impacts from this RCT more than of other programs that use our standard M&E', "I will trust estimates of this program's impacts equally as much as other programs that use our standard M&E", "I will trust estimates of this program's impacts from the RCT less than those of other programs that use our standard M&E"], key='RCT_question4')
+    st.write('- Do you think that thanks to the RCT you reached new beneficiaries? Do you think that it helped you disburse more funds than you originally planned?')
+    st.text_input('Please, write about your experience.', key = 'RCT_question5')
+    st.write('- Do you think allocating grants randomly amongst equally eligible potential beneficiaries is ethical? Did you think so before engaging in the RCT?')
+    st.text_input('Please, write about your experience.', key = 'RCT_question6')
 
 def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updated_bins_question_3_df, updated_bins_question_4_df, updated_bins_question_5_df, updated_bins_question_6_df, updated_bins_question_7_df, updated_bins_question_8_df, updated_bins_question_9_df, updated_bins_question_10_df, updated_bins_question_11_df, updated_bins_question_12_df):
     
@@ -189,7 +195,7 @@ def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updat
     MIN_EFF_SIZE_Q8 = 'Minimum Effect Size Q8'
     MIN_EFF_SIZE_Q9 = 'Minimum Effect Size Q9'
     MIN_EFF_SIZE_Q10 = 'Minimum Effect Size Q10'
-    #MIN_EFF_SIZE_Q11 = 'Minimum Effect Size Q10'
+    #MIN_EFF_SIZE_Q11 = 'Minimum Effect Size Q11'
     MIN_EFF_SIZE_Q12 = 'Minimum Effect Size Q12'
     COST_BENEFIT_RATIO = 'Cost-Benefit Ratio'
     RISK_AVERSION = 'Risk Aversion'
@@ -197,7 +203,8 @@ def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updat
     RCT_Q2 = 'RCT Q2'
     RCT_Q3 = 'RCT Q3'
     RCT_Q4 = 'RCT Q4'
-
+    RCT_Q5 = 'RCT Q5'
+    RCT_Q6 = 'RCT Q6'
 
     data[USER_FULL_NAME].append(safe_var('user_full_name'))
     data[USER_POSITION].append(safe_var('user_position'))
@@ -221,6 +228,8 @@ def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updat
     data[RCT_Q2].append(safe_var('RCT_question2'))
     data[RCT_Q3].append(safe_var('RCT_question3'))
     data[RCT_Q4].append(safe_var('RCT_question4'))
+    data[RCT_Q5].append(safe_var('RCT_question5'))
+    data[RCT_Q6].append(safe_var('RCT_question6'))
 
     st.session_state['data'] = data
     
@@ -241,7 +250,7 @@ def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updat
 
     column_names_list = concatenated_df.columns.tolist()
     #test_sheet = client.create(f'Test for Romania').sheet1
-    #column_names = sheet.append_row(column_names_list)
+    column_names = sheet.append_row(column_names_list)
     sheet_row_update = sheet.append_rows(concatenated_df.values.tolist()) #.values.tolist())
     #duplicate = sheet.duplicate(new_sheet_name='Duplicate data')
     #st.success('Data has been saved successfully.')
