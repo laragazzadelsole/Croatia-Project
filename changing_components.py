@@ -79,6 +79,11 @@ def create_question(jsonfile_name):
     # Add minor_value at the beginning
     x_axis.insert(0, minor_value)
 
+    if jsonfile_name['min_value_graph'] == -1:
+        x_axis.insert(6, 0)
+    else:
+        x_axis.insert(4, 0)
+
     # Add major_value at the end
     x_axis.append(major_value) 
 

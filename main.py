@@ -20,7 +20,7 @@ consent_form()
 
 #list needed later in the cost/benefit question
 cost_benefit_list = []
-cost_benefit_list = [f"1:{round(i, 1)}" for i in np.arange(1, 3.1, .2)]
+cost_benefit_list = [f"1:{round(i, 1)}" for i in np.arange(0.6, 3.1, .2)]
 
 if st.session_state['consent']:
 
