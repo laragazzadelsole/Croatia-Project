@@ -1,13 +1,13 @@
 {
     "header": {
       "survey_title": "Matching Firms and Scientists: Evidence from a Randomized Control Trial in Croatia",
-      "survey_description": "This research study aims to investigate the effectiveness of matching support for firms and scientists by rigorously evaluating this support for firms in Croatia.\nThe pilot is designed to introduce eligible firms with scientists who have relevant expertise.\n\nMatchmakers coordinate the meetings, helping to overcome challenges, and providing professional support through intensive handholding and knowledge transfer on key questions related to IP regulations, partnership agreements, and certification processes, amongst others. The matched pairs of scientists and business work jointly on concrete projects during the matchmaking phase.\n\nBy comparing randomly selected pilot firms and non-selected comparison firms, we seek to establish causal relationships between matchmaking support and its corresponding outcomes, while also distinguishing the effects for various types of firms.\n\nNon-financial support will be provided to eligible SMEs for which scientific support can be provided. The focus is on facilitating connections between the scientific and business communities through workshops, enabling firms to explore scientific trends, collaborate with scientists, test new products, and seek legal advice and financing options.\n\nThe following 14 questions regard your beliefs on, what is called in technical terms, the intention-to-treat effect (ITT). It is the effect of BEING OFFERED the full pilot, regardless of whether or not a firm decides to participate. It is simply the mean difference of the outcomes for the firms that get the assistance, compared to the firms that do not. In other words, you will be asked what you think it is the likely impact of the pilot for the firms that are offered the intervention, compared to those that do not participate to the pilot."
+      "survey_description": "This research study aims to investigate the effectiveness of matching firms with scientists by rigorously evaluating this support for firms in Croatia under the SCINERGY '24 Pilot.\nThe pilot is designed to introduce scientists who have relevant expertise to firms and assist their discussions.\n\nMatchmakers coordinate the meetings, helping to overcome challenges, and providing professional support through intensive handholding and knowledge transfer on key questions related to IP regulations, partnership agreements, and certification processes, amongst others. The matched pairs of scientists and business work jointly on concrete projects during the matchmaking phase.\n\nBy comparing randomly selected pilot firms and non-selected comparison firms, we seek to establish causal relationships between matchmaking support and its corresponding outcomes, while also distinguishing the effects for various types of firms.\n\nThe following questions regard your beliefs on the likely impact of BEING OFFERED the full pilot, regardless of whether or not a firm decides to participate in it. It is simply the mean difference of the outcomes for the firms that get the assistance, compared to similar firms that do not."
     },
     "question1": {
       "question_number": "Question 1",
       "key_form": "key_form1",
       "title_question": "Question 1 - Business-Science Collaboration Agreements Signed",
-      "subtitle_question": "On average, how many new business-science collaboration agreements do you think would be signed in the firms selected for the pilot via the RCT method after 2 years since firms received the matchmaking support, compared to non-beneficiaries firms from the comparison group? \n_Please allocate the probabilities in the cells corresponding to your beliefs._ ",
+      "subtitle_question": "On average, how much do you think the Scinergy'24 would CHANGE the number of business-science collaboration agreements signed after six months since firms received the matchmaking support, compared to non-beneficiaris firms from the comparison group? \n_Please allocate the probabilities in the cells corresponding to your beliefs and they should add to 100%._ ",
       "column_1": "% Change in New Business-Science Collaboration Agreements",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -20,13 +20,13 @@
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs", 
       "num_input_question": "num_input_question1",
-      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the new business-science collaboration agreements to increase by at least 5%, you should give 5 as your answer."
+      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the new business-science collaboration agreements to increase by at least 5% against the comparison group, you should give 5 as your answer."
     },
       "question2": {
       "question_number": "Question 2",
       "key_form": "key_form2",
       "title_question": "Question 2 - R&D Grant Application Submitted for Funding",
-      "subtitle_question": "On average, how many new grant applications submitted for funding do you think would be signed in the firms selected for the pilot via the RCT method after 2 years since firms received the matchmaking support, compared to non-beneficiaries firms from the comparison group?\n_Please allocate the probabilities in the cells corresponding to your beliefs._ ",
+      "subtitle_question": "On average, how much do you think the Scinergy'24 would CHANGE the number of R&D Grant Application Submitted for Funding after six months since firms received the matchmaking support, compared to non-beneficiaris firms from the comparison group? \n_Please allocate the probabilities in the cells corresponding to your beliefs and they should add to 100%._ ",
       "column_1": "% Change in R&D Grant Application Submitted",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -39,14 +39,14 @@
       "title_y_axis": "Probability",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question2",
-      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the number of R&D grant application to increase by at least 5%, you should give 5 as your answer."
+      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the number of R&D grant application to increase by at least 5% against the comparison group, you should give 5 as your answer."
     },
 
       "question3": {
       "question_number": "Question 3",
       "key_form": "key_form3",
       "title_question": "Question 3 - Number of Scientists Engaged in R&D per Firm",
-      "subtitle_question": "On average, how many new scientists do you think will be employed in the firms selected for the pilot via the RCT method after 2 years since firms received the matchmaking support, compared to non-beneficiaries firms from the comparison group? \n_Please allocate the probabilities in the cells corresponding to your beliefs._",
+      "subtitle_question": "On average, how much do you think the Scinergy'24 would CHANGE the number of Scientists Engaged in R&D per Firm after six months since firms received the matchmaking support, compared to non-beneficiaris firms from the comparison group?\n_Please allocate the probabilities in the cells corresponding to your beliefs and they should add to 100%._",
       "column_1": "% Change in New Scientists",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -59,13 +59,13 @@
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question3",
-      "effect_size": "What would be the minimum effect size you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the number of new scientists to increase by at least 5%, you should give 5 as your answer."
+      "effect_size": "What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the number of new scientists to increase by at least 5% against the comparison group, you should give 5 as your answer."
     },
       "question4": {
       "question_number": "Question 4",
       "key_form": "key_form4",
       "title_question": "Question 4 - Firm's Utilization of Research Infrastructures",
-      "subtitle_question": "On average, how many firms selected for the pilot via the RCT method do you think will have newly utilized research infrastructure after 2 years since firms received the matchmaking support, compared to non-beneficiaries firms from the comparison group?\n_Please allocate the probabilities in the cells corresponding to your beliefs._",
+      "subtitle_question": "On average, how much do you think the Scinergy'24 would CHANGE the Firm's Utilization of Research Infrastructures after six months since firms received the matchmaking support, compared to non-beneficiaris firms from the comparison group? \n_Please allocate the probabilities in the cells corresponding to your beliefs and they should add to 100%._",
       "column_1": "% Change in Use of Research Infrastructures",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -78,35 +78,15 @@
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question4",
-      "effect_size": "What would be the minimum effect size you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the use of new infrastructures to increase by at least 5%, you should give 5 as your answer."
+      "effect_size": "What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the use of new infrastructures to increase by at least 5% against the comparison group, you should give 5 as your answer."
     },
-    
+  
 
     "question5": {
       "question_number": "Question 5",
       "key_form": "key_form5",
-      "title_question": "Question 5 - New Customers Acquisition",
-      "subtitle_question": "On average, how much do you think the number of customers outside Croatia's borders has increased for the SMEs selected for the program via the RCT method, after 2 years since firms received the matchmaking support, compared to non-beneficiaries SMEs from the comparison group?  \n _Please allocate the probabilities in the cells corresponding to your beliefs._",
-      "column_1": "% Newly adoption of externally focused digitalization tools",
-      "column_2": "Probabilities",
-      "minor_value": "<-15.0",
-      "min_value_graph": -15,
-      "max_value_graph": 15,
-      "step_size_graph": 5,
-      "major_value": ">15",
-      "key": "data_editor5",
-      "title_x_axis": "Annual Net Profit",
-      "title_y_axis": "Probabilities",
-      "title_barchart": "Distribution of your Beliefs",
-      "num_input_question": "num_input_question5",
-      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the increment of customers outside Croatia's borders to increase by at least 5%, you should give 5 as your answer."
-    },
-
-    "question6": {
-      "question_number": "Question 6",
-      "key_form": "key_form6",
-      "title_question": "Question 6 - Annual Revenue",
-      "subtitle_question": "On average, how much do you think that the annual revenue would increase in the SMEs selected for the program via the RCT method after 2 years since firms received the matchmaking support, compared to non-beneficiaries SMEs from the comparison group?  \nRevenue is usually defined as the total amount of money received by the firm from its business activities during the course of a year. This includes income from sales of goods and services, rental income, interest, royalties, fees, commissions, and any other business income. It does not include sales tax collected directly from customers and remitted to tax authorities.  \n_Please allocate the probabilities in the cells corresponding to your beliefs._",
+      "title_question": "Question 5 - Annual Revenue",
+      "subtitle_question": "On average, how much do you think the Scinergy'24 would CHANGE the annual revenue after six months since firms received the matchmaking support, compared to non-beneficiaris firms from the comparison group? \nRevenue is usually defined as the total amount of money received by the firm from its business activities during the course of a year. This includes income from sales of goods and services, rental income, interest, royalties, fees, commissions, and any other business income. It does not include sales tax collected directly from customers and remitted to tax authorities.  \n_Please allocate the probabilities in the cells corresponding to your beliefs and they should add to 100%._",
       "column_1": "% Change in Annual Revenue",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -114,19 +94,19 @@
       "max_value_graph": 15.0,
       "step_size_graph": 5.0,
       "major_value": ">15.0",
-      "key": "data_editor6",
+      "key": "data_editor5",
       "title_x_axis": "Annual Revenue",
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
-      "num_input_question": "num_input_question6",
-      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the annual revenue to increase by at least 5%, you should give 5 as your answer."
+      "num_input_question": "num_input_question5",
+      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the annual revenue to increase by at least 5% against the comparison group, you should give 5 as your answer."
     },
     
-      "question7": {
-      "question_number": "Question 7",
-      "key_form": "key_form7",
-      "title_question": "Question 7 - Annual Net Profit",
-      "subtitle_question": "On average, how much do you think that the annual net profit would increase in the SMEs selected for the program via the RCT method after 2 years since firms received the matchmaking support, compared to non-beneficiaries SMEs from the comparison group?  \nNet profit is the amount of income that remains after all operating expenses, taxes, interest, and preferred stock dividends have been deducted from a company's total revenue.  \n _Please allocate the probabilities in the cells corresponding to your beliefs._ ",
+      "question6": {
+      "question_number": "Question 6",
+      "key_form": "key_form6",
+      "title_question": "Question 6 - Annual Net Profit",
+      "subtitle_question": "On average, how much do you think the Scinergy'24 would CHANGE the annual net profit after six months since firms received the matchmaking support, compared to non-beneficiaris firms from the comparison group? \nNet profit is the amount of income that remains after all operating expenses, taxes, interest, and preferred stock dividends have been deducted from a company's total revenue.  \n _Please allocate the probabilities in the cells corresponding to your beliefs and they should add to 100%._ ",
       "column_1": "% Change in Annual Net Profit",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -134,19 +114,38 @@
       "max_value_graph": 15,
       "step_size_graph": 5,
       "major_value": ">15.0",
-      "key": "data_editor7",
+      "key": "data_editor6",
       "title_x_axis": "Annual Net Profit",
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
-      "num_input_question": "num_input_question7",
-      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the annual net profit to increase by at least 5%, you should give 5 as your answer."
+      "num_input_question": "num_input_question6",
+      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the annual net profit to increase by at least 5% against the comparison group, you should give 5 as your answer."
     },
 
-    "question8": {
+    "question7": {
+      "question_number": "Question 7",
+      "key_form": "key_form7",
+      "title_question": "Question 7 - Full-time Employees",
+      "subtitle_question": "On average, how much do you think the Scinergy'24 would CHANGE the number of full-time employees after six months since firms received the matchmaking support, compared to non-beneficiaris firms from the comparison group? \n_Please allocate the probabilities in the cells corresponding to your beliefs and they should add to 100%._ ",
+      "column_1": "% Change in Full-time Employees",
+      "column_2": "Probabilities",
+      "minor_value": "<-15.0",
+      "min_value_graph": -15,
+      "max_value_graph": 15,
+      "step_size_graph": 5,
+      "major_value": ">15.0",
+      "key": "data_editor7",
+      "title_x_axis": "Employment Level",
+      "title_y_axis": "Probabilities",
+      "title_barchart": "Distribution of your Beliefs", 
+      "num_input_question": "num_input_question7",
+      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the number of employees to increase by at least 5% against the comparison group, you should give 5 as your answer."
+    },
+      "question8": {
       "question_number": "Question 8",
       "key_form": "key_form8",
-      "title_question": "Question 8 - Full-time Employees",
-      "subtitle_question": "On average, how much do you think that the total number of full-time employees would increase in the SMEs selected for the program via the RCT method after 2 years since firms received the matchmaking support, compared to non-beneficiaries firms from the comparison group?\n_Please allocate the probabilities in the cells corresponding to your beliefs._ ",
+      "title_question": "Question 8 - Positive Impact on Employment in a Neighbouring Country",
+      "subtitle_question": "Suppose we found the impact on employment in one of these other neighboring countries was 10%, with a 95% confidence interval of [+5%., +15%]. That is, the Scinergy'24 in this other country is estimated to have increased employment by 10% compared to a control group, and it is very likely the effect is between 5 and 15 percent. How, if at all, would this change your beliefs about the impact on employment in Croatia?\n_Please look again at the answers you gave in Question 7. If you want to update your estimate insert the new distribution of probabilities, otherwise insert again the same distribution as you did above._ ",
       "column_1": "% Change in Full-time Employees",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -155,37 +154,18 @@
       "step_size_graph": 5,
       "major_value": ">15.0",
       "key": "data_editor8",
-      "title_x_axis": "Employment Level",
-      "title_y_axis": "Probabilities",
-      "title_barchart": "Distribution of your Beliefs", 
-      "num_input_question": "num_input_question8",
-      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the number of employees to increase by at least 5%, you should give 5 as your answer."
-    },
-      "question9": {
-      "question_number": "Question 9",
-      "key_form": "key_form9",
-      "title_question": "Question 9 - Positive Impact on Employment in a Neighbouring Country",
-      "subtitle_question": "Suppose we found the impact on employment in one of these other neighboring countries was 10%, with a 95% confidence interval of [+5%., +15%]. That is, the program in this other country is estimated to have increased employment by 10% compared to a control group, and it is very likely the effect is between 5 and 15 percent. How, if at all, would this change your beliefs about the impact on employment in Croatia?\n_Please look again at the answers you gave in Question 8. If you want to update your estimate insert the new distribution of probabilities, otherwise insert again the same distribution as you did above._ ",
-      "column_1": "% Change in Full-time Employees",
-      "column_2": "Probabilities",
-      "minor_value": "<-15.0",
-      "min_value_graph": -15,
-      "max_value_graph": 15,
-      "step_size_graph": 5,
-      "major_value": ">15.0",
-      "key": "data_editor9",
       "title_x_axis": "",
       "title_y_axis": "Probability",
       "title_barchart": "Distribution of your Beliefs",
-      "num_input_question": "num_input_question9",
-      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the number of employees to increase by at least 5%, you should give 5 as your answer."
+      "num_input_question": "num_input_question8",
+      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the number of employees to increase by at least 5% against the comparison group, you should give 5 as your answer."
     },
 
-      "question10": {
-      "question_number": "Question 10",
-      "key_form": "key_form10",
-      "title_question": "Question 10 - Negative Impact on Employment in a Neighbouring Country",
-      "subtitle_question": "What if, instead, we had found that employment actually fell 5 percent in this other country relative to the control group, with a 95% confidence interval of [-10%., 0%]. That is, the program in this other country is estimated to have led slightly firms to shrink their labor force compared to a control group, and it is very likely the effect is between -10 and 0 percent. How, if at all, would this change your beliefs about the impact on employment in Croatia?\n_Please look again at the answers you gave in Question 8. If you want to update your estimate insert the new distribution of probabilities, otherwise insert again the same distribution as you did above._",
+      "question9": {
+      "question_number": "Question 9",
+      "key_form": "key_form9",
+      "title_question": "Question 9 - Negative Impact on Employment in a Neighbouring Country",
+      "subtitle_question": "What if, instead, we had found that employment actually fell 5 percent in this other country relative to the control group, with a 95% confidence interval of [-10%., 0%]. That is, the Scinergy'24 in this other country is estimated to have led slightly firms to shrink their labor force compared to a control group, and it is very likely the effect is between -10 and 0 percent. How, if at all, would this change your beliefs about the impact on employment in Croatia?\n_Please look again at the answers you gave in Question 7. If you want to update your estimate insert the new distribution of probabilities, otherwise insert again the same distribution as you did above._",
       "column_1": "% Change in Full-time Employees",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -193,18 +173,18 @@
       "max_value_graph": 15.0,
       "step_size_graph": 5.0,
       "major_value": ">15.0",
-      "key": "data_editor10",
+      "key": "data_editor9",
       "title_x_axis": "Labor Productivity",
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
-      "num_input_question": "num_input_question10",
-      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the number of employees to increase by at least 5%, you should give 5 as your answer."
+      "num_input_question": "num_input_question9",
+      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the number of employees to increase by at least 5% against the comparison group, you should give 5 as your answer."
     },
 
-    "question11": {
-      "question_number": "Question 11",
-      "key_form": "key_form11",
-      "title_question": "Question 11 - Correlation Example",
+    "question10": {
+      "question_number": "Question 10",
+      "key_form": "key_form10",
+      "title_question": "Question 10 - Correlation Example",
       "subtitle_question": "In statistics, the correlation is a measure of how strongly two outcomes are linearly related. The correlation lies between -1 and 1. A correlation of -1 means that variables move perfectly in the opposite direction to one another, so that if one is high, the other is low. A 0 correlation means no relationship between them, while a correlation of +1 means the two move linearly together. A positive number between 0 and 1 means the two don't move perfectly together, but that you are somewhat more likely to see positive impacts in one variable when you see them somewhere else.\nTo make sure this is clear, let's first consider an example on the weather. What do you think is the correlation between the temperature on a Saturday and on a Sunday by looking at temperatures of all the weekends in a year?\n_Please allocate the probabilities in the cells corresponding to your beliefs._",
       "column_1": "Correlation",
       "column_2": "Probabilities",
@@ -213,19 +193,19 @@
       "max_value_graph": 1,
       "step_size_graph": 0.2,
       "major_value": "1.0",
-      "key": "data_editor11",
+      "key": "data_editor10",
       "title_x_axis": "Labor Productivity",
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
-      "num_input_question": "num_input_question11",
+      "num_input_question": "num_input_question10",
       "effect_size": " "
     },
 
-    "question12": {
-      "question_number": "Question 12",
-      "key_form": "key_form12",
-      "title_question": "Question 12 - Correlation Between Treatment Estimates in Croatia and Those in Another Country",
-      "subtitle_question": "We would like you to express your beliefs about the correlation you would expect to see between treatment estimates in Croatia and those in another country in the region. A negative correlation means you think if a program has a negative impact somewhere else this makes it more likely it has a positive impact in Croatia. A 0 correlation means no relationship between what you find elsewhere and what you expect to see in Croatia, while a positive correlation means if you think that when programs find a high impact somewhere else you will be more likely to also find a high impact in Croatia.\n_Please allocate the probabilities in the cells corresponding to your beliefs._",
+    "question11": {
+      "question_number": "Question 11",
+      "key_form": "key_form11",
+      "title_question": "Question 11 - Correlation Between Treatment Estimates in Croatia and Those in Another Country",
+      "subtitle_question": "We would like you to express your beliefs about the correlation you would expect to see between treatment estimates in Croatia and those in another country in the region. A negative correlation means you think if Scinergy'24 has a negative impact somewhere else this makes it more likely it has a positive impact in Croatia. A 0 correlation means no relationship between what you find elsewhere and what you expect to see in Croatia, while a positive correlation means if you think that when programs find a high impact somewhere else you will be more likely to also find a high impact in Croatia.\n_Please allocate the probabilities in the cells corresponding to your beliefs._",
       "column_1": " Correlation",
       "column_2": "Probabilities",
       "minor_value": "-1.0",
@@ -233,12 +213,12 @@
       "max_value_graph": 1,
       "step_size_graph": 0.2,
       "major_value": "1.0",
-      "key": "data_editor12",
+      "key": "data_editor11",
       "title_x_axis": "Correlation",
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
-      "num_input_question": "num_input_question12",
-      "effect_size": "- What would be the minimum correlation you would want to see in order to consider scaling up this program to more firms? Express your answer with a value between -1 and 1."
+      "num_input_question": "num_input_question11",
+      "effect_size": "- What would be the minimum correlation you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer with a value between -1 and 1."
     }
 
 }

@@ -65,11 +65,7 @@ if st.session_state['consent']:
 
     q10_config = config['question10']
     updated_bins_question_10_df, percentage_difference10, num_bins10 = create_question(q10_config)
-    effect_size_question10 = effect_size_question(q10_config)
-
-    q11_config = config['question11']
-    updated_bins_question_11_df, percentage_difference11, num_bins11 = create_question(q11_config)
-    #effect_size_question1 = effect_size_question(q1_config)
+    #effect_size_question10 = effect_size_question(q10_config)
 
     col1, col2, col3, col4 = st.columns(4)
     with col2:
@@ -77,9 +73,15 @@ if st.session_state['consent']:
     
     st.write("Saturday and Sunday temperatures in Washington DC for each weekend in 2022. As we might expect, there is a strong correlation between the temperature on a Saturday and on the Sunday, since some parts of the year are hot, and others colder. The correlation here is 0.88.")
 
-    q12_config = config['question12']
-    updated_bins_question_12_df, percentage_difference12, num_bins12 = create_question(q12_config)
-    effect_size_question12 = effect_size_question(q12_config)
+    
+    q11_config = config['question11']
+    updated_bins_question_11_df, percentage_difference11, num_bins11 = create_question(q11_config)
+    effect_size_question11 = effect_size_question(q11_config)
+
+    
+    #q12_config = config['question12']
+    #updated_bins_question_12_df, percentage_difference12, num_bins12 = create_question(q12_config)
+    #effect_size_question12 = effect_size_question(q12_config)
     
 
     percentage_differences = [percentage_difference1, percentage_difference2] #, percentage_difference3, percentage_difference4, percentage_difference5
@@ -100,14 +102,14 @@ if st.session_state['consent']:
     with col1:   
         st.slider("Please move the slider to indicate your preference.", 1, 10, key= "risk_aversion")
 
-    if st.session_state['professional_category'] == 'Policymaker':
+    if st.session_state['professional_category'] == 'Government Official':
         RCT_questions() 
     
     # Submission button + saving data 
     if all(percentage == 0 for percentage in percentage_differences):
     #if percentage_difference1 == 0:
         #concatenated_df = combine_df(updated_bins_question_1_df, updated_bins_question_2_df, updated_bins_question_3_df, updated_bins_question_4_df, updated_bins_question_5_df, updated_bins_question_6_df, updated_bins_question_7_df)
-        submit = st.button("Submit", on_click = add_submission, args = (updated_bins_question_1_df, updated_bins_question_2_df, updated_bins_question_3_df, updated_bins_question_4_df, updated_bins_question_5_df, updated_bins_question_6_df, updated_bins_question_7_df, updated_bins_question_8_df, updated_bins_question_9_df, updated_bins_question_10_df, updated_bins_question_11_df, updated_bins_question_12_df))
+        submit = st.button("Submit", on_click = add_submission, args = (updated_bins_question_1_df, updated_bins_question_2_df, updated_bins_question_3_df, updated_bins_question_4_df, updated_bins_question_5_df, updated_bins_question_6_df, updated_bins_question_7_df, updated_bins_question_8_df, updated_bins_question_9_df, updated_bins_question_10_df, updated_bins_question_11_df))
 
     if st.session_state['submit']:
         

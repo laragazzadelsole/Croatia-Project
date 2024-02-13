@@ -43,8 +43,8 @@ def initialize_session_state():
             'Minimum Effect Size Q7': [],
             'Minimum Effect Size Q8': [],
             'Minimum Effect Size Q9': [],
-            'Minimum Effect Size Q10': [],
-            'Minimum Effect Size Q12': [],
+            #'Minimum Effect Size Q10': [],
+            'Minimum Effect Size Q11': [],
             'Cost-Benefit Ratio': [],
             'Risk Aversion': [],
             'RCT Q1': [],
@@ -136,7 +136,7 @@ def effect_size_question(jsonfile_name):
 
 def RCT_questions():
     st.subheader('Questions on RCTs Evaluation')
-    st.write('This section is meant for policymakers only. We would like to know your opinion regarding RCTs programs.')
+    st.write('This section is meant for government officials only. We would like to know your opinion regarding RCTs programs.')
     st.write('1. After my experience in being involved in this project, I am:')
     st.radio('Choose one of the following options:', ['More interested in using RCTs for evaluation of other government projects', 'Just as interested in using RCTs for evaluation of other government projects as I was before starting this one', 'Less interested in using RCTs for evaluation of other government projects'], key ='RCT_question1')
     st.write('2. We would like you to compare your experiences on this project that we are evaluating through an experiment to similar government projects you have worked on that have not had such an evaluation. Can you please compare this project to similar projects without an experimental evaluation in terms of:')
@@ -151,9 +151,9 @@ def RCT_questions():
     st.write('- Do you think allocating grants randomly amongst equally eligible potential beneficiaries is ethical? Did you think so before engaging in the RCT?')
     st.text_input('Please, write about your experience.', key = 'RCT_question6')
 
-def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updated_bins_question_3_df, updated_bins_question_4_df, updated_bins_question_5_df, updated_bins_question_6_df, updated_bins_question_7_df, updated_bins_question_8_df, updated_bins_question_9_df, updated_bins_question_10_df, updated_bins_question_11_df, updated_bins_question_12_df):
+def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updated_bins_question_3_df, updated_bins_question_4_df, updated_bins_question_5_df, updated_bins_question_6_df, updated_bins_question_7_df, updated_bins_question_8_df, updated_bins_question_9_df, updated_bins_question_10_df, updated_bins_question_11_df):
     
-    updated_bins_list = [updated_bins_question_1_df, updated_bins_question_2_df, updated_bins_question_3_df, updated_bins_question_4_df, updated_bins_question_5_df, updated_bins_question_6_df, updated_bins_question_7_df, updated_bins_question_8_df, updated_bins_question_9_df, updated_bins_question_10_df, updated_bins_question_11_df, updated_bins_question_12_df]
+    updated_bins_list = [updated_bins_question_1_df, updated_bins_question_2_df, updated_bins_question_3_df, updated_bins_question_4_df, updated_bins_question_5_df, updated_bins_question_6_df, updated_bins_question_7_df, updated_bins_question_8_df, updated_bins_question_9_df, updated_bins_question_10_df, updated_bins_question_11_df]
     
     transposed_bins_list = [df.transpose() for df in updated_bins_list]
     
@@ -194,9 +194,9 @@ def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updat
     MIN_EFF_SIZE_Q7 = 'Minimum Effect Size Q7'
     MIN_EFF_SIZE_Q8 = 'Minimum Effect Size Q8'
     MIN_EFF_SIZE_Q9 = 'Minimum Effect Size Q9'
-    MIN_EFF_SIZE_Q10 = 'Minimum Effect Size Q10'
-    #MIN_EFF_SIZE_Q11 = 'Minimum Effect Size Q11'
-    MIN_EFF_SIZE_Q12 = 'Minimum Effect Size Q12'
+    #MIN_EFF_SIZE_Q10 = 'Minimum Effect Size Q10'
+    MIN_EFF_SIZE_Q11 = 'Minimum Effect Size Q11'
+    #MIN_EFF_SIZE_Q12 = 'Minimum Effect Size Q12'
     COST_BENEFIT_RATIO = 'Cost-Benefit Ratio'
     RISK_AVERSION = 'Risk Aversion'
     RCT_Q1 = 'RCT Q1'
@@ -219,9 +219,9 @@ def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updat
     data[MIN_EFF_SIZE_Q7].append(safe_var('num_input_question7'))
     data[MIN_EFF_SIZE_Q8].append(safe_var('num_input_question8'))
     data[MIN_EFF_SIZE_Q9].append(safe_var('num_input_question9'))
-    data[MIN_EFF_SIZE_Q10].append(safe_var('num_input_question10'))
-    #data[MIN_EFF_SIZE_Q11].append(safe_var('num_input_question11'))
-    data[MIN_EFF_SIZE_Q12].append(safe_var('num_input_question12'))
+    #data[MIN_EFF_SIZE_Q10].append(safe_var('num_input_question10'))
+    data[MIN_EFF_SIZE_Q11].append(safe_var('num_input_question11'))
+    #data[MIN_EFF_SIZE_Q12].append(safe_var('num_input_question12'))
     data[COST_BENEFIT_RATIO].append(safe_var('cost_benefit'))
     data[RISK_AVERSION].append(safe_var('risk_aversion'))
     data[RCT_Q1].append(safe_var('RCT_question1'))
@@ -234,10 +234,14 @@ def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updat
     st.session_state['data'] = data
     
     session_state_df = pd.DataFrame(data)
+    
     personal_data_df = session_state_df.iloc[:, :4]
     min_eff_df = session_state_df.iloc[:, 4:]
+    
 
     concatenated_df = pd.concat([personal_data_df, questions_df.set_index(personal_data_df.index), min_eff_df.set_index(personal_data_df.index)], axis=1)
+
+
     
     st.session_state['submit'] = True
     #save data to google sheet
