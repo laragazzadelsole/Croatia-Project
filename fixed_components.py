@@ -25,7 +25,7 @@ def consent_form():
     """)
     agree = st.checkbox("I understand and consent.")
     if agree:
-        st.markdown("You have consented. Select \"Next\" to start the survey.")
+        st.markdown("You have consented. Select \"Next\" to start the survey. Bear in mind that it's not possible to save the answers and continue later. The survey must be filled in all at once.")
         st.button('Next', on_click=add_consent)
 
 
