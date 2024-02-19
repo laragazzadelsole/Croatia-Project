@@ -13,7 +13,7 @@
       "minor_value": "<-15.0",
       "min_value_graph": -15.0,
       "max_value_graph": 15.0,
-      "step_size_graph": 5,
+      "step_size_graph": 5.0,
       "major_value": ">15.0",
       "key": "data_editor1",
       "title_x_axis": "SMEs enrolling",
