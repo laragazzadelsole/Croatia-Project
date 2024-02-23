@@ -102,8 +102,9 @@ if st.session_state['consent']:
     with col1:   
         st.slider("Please move the slider to indicate your preference.", 1, 10, key= "risk_aversion")
 
-    if st.session_state['professional_category'] == 'Government Official/Donor' or 'Program Implementer/Practitioner':
+    if st.session_state['professional_category'] in ['Government Official/Donor', 'Program Implementer/Practitioner']:
         RCT_questions() 
+
     
     # Submission button + saving data 
     if all(percentage == 0 for percentage in percentage_differences):
