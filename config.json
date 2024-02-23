@@ -1,7 +1,7 @@
 {
     "header": {
       "survey_title": "Matching Firms and Scientists: Evidence from a Randomized Control Trial in Croatia",
-      "survey_description": "This research study aims to investigate the effectiveness of matching firms with scientists by rigorously evaluating this support for firms in Croatia under the SCINERGY '24 Pilot.\nThe pilot is designed to introduce scientists who have relevant expertise to firms and assist their discussions.\n\nMatchmakers coordinate the meetings, helping to overcome challenges, and providing professional support through intensive handholding and knowledge transfer on key questions related to IP regulations, partnership agreements, and certification processes, amongst others. The matched pairs of scientists and business work jointly on concrete projects during the matchmaking phase.\n\nBy comparing randomly selected pilot firms and non-selected comparison firms, we seek to establish causal relationships between matchmaking support and its corresponding outcomes, while also distinguishing the effects for various types of firms.\n\nThe following questions regard your beliefs on the likely impact of BEING OFFERED the full pilot, regardless of whether or not a firm decides to participate in it. It is simply the mean difference of the outcomes for the firms that get offered the assistance, compared to similar firms that do not."
+      "survey_description": "Please be advised that this survey is resource-intensive and demands significant RAM for optimal performance. To avoid potential slowdowns, ensure all open windows and background programs are closed. Additionally, a stable internet connection is necessary for smooth operation.\n\nThis research study aims to **investigate the effectiveness of matching firms with scientists** by rigorously evaluating this support for firms in Croatia under the **SCINERGY '24 Pilot**.\nThe pilot is designed to introduce scientists who have relevant expertise to firms and assist their discussions.\n\nMatchmakers coordinate the meetings, helping to overcome challenges, and providing professional support through intensive handholding and knowledge transfer on key questions related to IP regulations, partnership agreements, and certification processes, amongst others. The matched pairs of scientists and business work jointly on concrete projects during the matchmaking phase.\n\nBy comparing randomly selected pilot firms and non-selected comparison firms, we seek to establish causal relationships between matchmaking support and its corresponding outcomes, while also distinguishing the effects for various types of firms.\n\n**The following questions regard your beliefs on the likely impact of BEING OFFERED the full pilot, regardless of whether or not a firm decides to participate in it**. It is simply the mean difference of the outcomes for the firms that get offered the assistance, compared to similar firms that do not."
     },
     "question1": {
       "question_number": "Question 1",
@@ -20,7 +20,7 @@
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs", 
       "num_input_question": "num_input_question1",
-      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the new business-science collaboration agreements to increase by at least 5% against the comparison group, you should give 5 as your answer."
+      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the new business-science collaboration agreements to increase by at least X% against the comparison group, you should give X as your answer."
     },
       "question2": {
       "question_number": "Question 2",
@@ -39,7 +39,7 @@
       "title_y_axis": "Probability",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question2",
-      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the number of R&D grant application to increase by at least 5% against the comparison group, you should give 5 as your answer."
+      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the number of R&D grant application to increase by at least X% against the comparison group, you should give X as your answer."
     },
 
       "question3": {
@@ -59,7 +59,7 @@
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question3",
-      "effect_size": "What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the number of new scientists to increase by at least 5% against the comparison group, you should give 5 as your answer."
+      "effect_size": "What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the number of new scientists to increase by at least X% against the comparison group, you should give X as your answer."
     },
       "question4": {
       "question_number": "Question 4",
@@ -78,7 +78,7 @@
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question4",
-      "effect_size": "What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the use of new infrastructures to increase by at least 5% against the comparison group, you should give 5 as your answer."
+      "effect_size": "What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the use of new infrastructures to increase by at least X% against the comparison group, you should give X as your answer."
     },
   
 
@@ -99,7 +99,7 @@
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question5",
-      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the annual revenue to increase by at least 5% against the comparison group, you should give 5 as your answer."
+      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the annual revenue to increase by at least X% against the comparison group, you should give X as your answer."
     },
     
       "question6": {
@@ -119,7 +119,7 @@
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question6",
-      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the annual net profit to increase by at least 5% against the comparison group, you should give 5 as your answer."
+      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the annual net profit to increase by at least X% against the comparison group, you should give X as your answer."
     },
 
     "question7": {
@@ -139,7 +139,7 @@
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs", 
       "num_input_question": "num_input_question7",
-      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the number of employees to increase by at least 5% against the comparison group, you should give 5 as your answer."
+      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the number of employees to increase by at least X% against the comparison group, you should give X as your answer."
     },
       "question8": {
       "question_number": "Question 8",
@@ -158,7 +158,7 @@
       "title_y_axis": "Probability",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question8",
-      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the number of employees to increase by at least 5% against the comparison group, you should give 5 as your answer."
+      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the number of employees to increase by at least X% against the comparison group, you should give X as your answer."
     },
 
       "question9": {
@@ -178,7 +178,7 @@
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question9",
-      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the number of employees to increase by at least 5% against the comparison group, you should give 5 as your answer."
+      "effect_size": "- What would be the minimum effect size you would want to see in order to consider scaling up Scinergy'24 to more firms? Express your answer in percentage points, e.g. if you would want the number of employees to increase by at least X% against the comparison group, you should give X as your answer."
     },
 
     "question10": {

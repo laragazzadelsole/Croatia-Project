@@ -76,7 +76,7 @@ if st.session_state['consent']:
     
     q11_config = config['question11']
     updated_bins_question_11_df, percentage_difference11, num_bins11 = create_question(q11_config)
-    effect_size_question11 = effect_size_question(q11_config)
+    #effect_size_question11 = effect_size_question(q11_config)
 
     
     #q12_config = config['question12']
@@ -102,7 +102,7 @@ if st.session_state['consent']:
     with col1:   
         st.slider("Please move the slider to indicate your preference.", 1, 10, key= "risk_aversion")
 
-    if st.session_state['professional_category'] == 'Government Official':
+    if st.session_state['professional_category'] == 'Government Official/Donor' or 'Program Implementer/Practitioner':
         RCT_questions() 
     
     # Submission button + saving data 
